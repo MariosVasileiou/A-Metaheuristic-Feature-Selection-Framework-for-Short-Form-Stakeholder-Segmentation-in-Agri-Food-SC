@@ -1,0 +1,38 @@
+{
+  "short_form_items": [
+    "Q1",
+    "Q4",
+    "Q8",
+    "Q9",
+    "Q21",
+    "Q32",
+    "Q38"
+  ],
+  "short_form_size": 7,
+  "short_form_proc": 0.8896621514211401,
+  "short_form_ari": 1.0,
+  "full_proc": 1.0,
+  "full_ari": 1.0,
+  "random_proc_mean": 0.6588042818954043,
+  "random_proc_std": 0.07544654693685698,
+  "random_ari_mean": 0.3482863000887847,
+  "random_ari_std": 0.20340077683878552,
+  "random_ari_1_fraction": 0.0,
+  "toploading_items": [
+    "Q24",
+    "Q37",
+    "Q21",
+    "Q36",
+    "Q6",
+    "Q23",
+    "Q25"
+  ],
+  "toploading_proc": 0.7515104757448193,
+  "toploading_ari": 0.4851615822617746,
+  "profile_sizes": {
+    "Committed Enthusiasts": 7,
+    "Operationally Cautious": 4,
+    "Pragmatic Optimists": 29,
+    "Risk-Averse Sceptics": 2
+  }
+}

@@ -1,0 +1,290 @@
+{
+  "reference": "full sample n=42, K=4, k=4",
+  "subsets_evaluated": 39679,
+  "pool_size": 39679,
+  "negative_ari_evaluations": 21,
+  "negative_ari_fraction": 0.0005292472088510295,
+  "ari1_alpha_range": [
+    0.0,
+    0.15,
+    0.2,
+    0.25,
+    0.3,
+    0.4,
+    0.6,
+    0.9
+  ],
+  "ari1_weight_range": [
+    0.0,
+    0.25,
+    0.5,
+    0.75
+  ],
+  "alpha_sweep": [
+    {
+      "alpha": 0.0,
+      "size": 40,
+      "procrustes": 1.0,
+      "ari": 1.0,
+      "fidelity": 1.0,
+      "objective": 1.0,
+      "overlap_consensus": 7,
+      "items": "Q1 Q2 Q3 Q4 Q5 Q6 Q7 Q8 Q9 Q10 Q11 Q12 Q13 Q14 Q15 Q16 Q17 Q18 Q19 Q20 Q21 Q22 Q23 Q24 Q25 Q26 Q27 Q28 Q29 Q30 Q31 Q32 Q33 Q34 Q35 Q36 Q37 Q38 Q39 Q40"
+    },
+    {
+      "alpha": 0.15,
+      "size": 11,
+      "procrustes": 0.9355608240449627,
+      "ari": 1.0,
+      "fidelity": 0.9677804120224813,
+      "objective": 0.9265304120224813,
+      "overlap_consensus": 4,
+      "items": "Q4 Q8 Q10 Q14 Q21 Q23 Q31 Q32 Q35 Q36 Q39"
+    },
+    {
+      "alpha": 0.2,
+      "size": 10,
+      "procrustes": 0.9276780620029476,
+      "ari": 1.0,
+      "fidelity": 0.9638390310014737,
+      "objective": 0.9138390310014737,
+      "overlap_consensus": 3,
+      "items": "Q4 Q8 Q14 Q21 Q23 Q26 Q31 Q33 Q36 Q39"
+    },
+    {
+      "alpha": 0.25,
+      "size": 10,
+      "procrustes": 0.9276780620029476,
+      "ari": 1.0,
+      "fidelity": 0.9638390310014737,
+      "objective": 0.9013390310014737,
+      "overlap_consensus": 3,
+      "items": "Q4 Q8 Q14 Q21 Q23 Q26 Q31 Q33 Q36 Q39"
+    },
+    {
+      "alpha": 0.3,
+      "size": 7,
+      "procrustes": 0.8896621514211401,
+      "ari": 1.0,
+      "fidelity": 0.94483107571057,
+      "objective": 0.89233107571057,
+      "overlap_consensus": 7,
+      "items": "Q1 Q4 Q8 Q9 Q21 Q32 Q38"
+    },
+    {
+      "alpha": 0.4,
+      "size": 7,
+      "procrustes": 0.8896621514211401,
+      "ari": 1.0,
+      "fidelity": 0.94483107571057,
+      "objective": 0.87483107571057,
+      "overlap_consensus": 7,
+      "items": "Q1 Q4 Q8 Q9 Q21 Q32 Q38"
+    },
+    {
+      "alpha": 0.6,
+      "size": 6,
+      "procrustes": 0.8616539364487196,
+      "ari": 1.0,
+      "fidelity": 0.9308269682243597,
+      "objective": 0.8408269682243598,
+      "overlap_consensus": 5,
+      "items": "Q1 Q4 Q8 Q9 Q32 Q40"
+    },
+    {
+      "alpha": 0.9,
+      "size": 5,
+      "procrustes": 0.8237441796368243,
+      "ari": 1.0,
+      "fidelity": 0.9118720898184122,
+      "objective": 0.7993720898184121,
+      "overlap_consensus": 5,
+      "items": "Q1 Q4 Q8 Q9 Q32"
+    }
+  ],
+  "weight_sweep": [
+    {
+      "w_procrustes": 0.0,
+      "size": 5,
+      "procrustes": 0.7464429747503977,
+      "ari": 1.0,
+      "fidelity": 0.8732214873751989,
+      "objective": 0.9625,
+      "overlap_consensus": 3,
+      "items": "Q1 Q4 Q6 Q8 Q23"
+    },
+    {
+      "w_procrustes": 0.25,
+      "size": 6,
+      "procrustes": 0.8616539364487196,
+      "ari": 1.0,
+      "fidelity": 0.9308269682243597,
+      "objective": 0.9204134841121798,
+      "overlap_consensus": 5,
+      "items": "Q1 Q4 Q8 Q9 Q32 Q40"
+    },
+    {
+      "w_procrustes": 0.5,
+      "size": 7,
+      "procrustes": 0.8896621514211401,
+      "ari": 1.0,
+      "fidelity": 0.94483107571057,
+      "objective": 0.89233107571057,
+      "overlap_consensus": 7,
+      "items": "Q1 Q4 Q8 Q9 Q21 Q32 Q38"
+    },
+    {
+      "w_procrustes": 0.75,
+      "size": 10,
+      "procrustes": 0.9276780620029476,
+      "ari": 1.0,
+      "fidelity": 0.9638390310014737,
+      "objective": 0.8707585465022107,
+      "overlap_consensus": 3,
+      "items": "Q4 Q8 Q14 Q21 Q23 Q26 Q31 Q33 Q36 Q39"
+    },
+    {
+      "w_procrustes": 1.0,
+      "size": 10,
+      "procrustes": 0.9310864470665104,
+      "ari": 0.9186584789796882,
+      "fidelity": 0.9248724630230993,
+      "objective": 0.8560864470665105,
+      "overlap_consensus": 2,
+      "items": "Q4 Q10 Q14 Q21 Q24 Q25 Q31 Q33 Q36 Q39"
+    }
+  ],
+  "pareto_frontier": [
+    {
+      "size": 5,
+      "fidelity": 0.9118720898184122,
+      "procrustes": 0.8237441796368243,
+      "ari": 1.0,
+      "items": "Q1 Q4 Q8 Q9 Q32"
+    },
+    {
+      "size": 6,
+      "fidelity": 0.9308269682243597,
+      "procrustes": 0.8616539364487196,
+      "ari": 1.0,
+      "items": "Q1 Q4 Q8 Q9 Q32 Q40"
+    },
+    {
+      "size": 7,
+      "fidelity": 0.94483107571057,
+      "procrustes": 0.8896621514211401,
+      "ari": 1.0,
+      "items": "Q1 Q4 Q8 Q9 Q21 Q32 Q38"
+    },
+    {
+      "size": 8,
+      "fidelity": 0.950859771670793,
+      "procrustes": 0.9017195433415861,
+      "ari": 1.0,
+      "items": "Q1 Q4 Q8 Q9 Q21 Q25 Q32 Q38"
+    },
+    {
+      "size": 9,
+      "fidelity": 0.9570964612968612,
+      "procrustes": 0.9141929225937224,
+      "ari": 1.0,
+      "items": "Q1 Q4 Q8 Q9 Q21 Q25 Q32 Q35 Q38"
+    },
+    {
+      "size": 10,
+      "fidelity": 0.9638390310014737,
+      "procrustes": 0.9276780620029476,
+      "ari": 1.0,
+      "items": "Q4 Q8 Q14 Q21 Q23 Q26 Q31 Q33 Q36 Q39"
+    },
+    {
+      "size": 11,
+      "fidelity": 0.9677804120224813,
+      "procrustes": 0.9355608240449627,
+      "ari": 1.0,
+      "items": "Q4 Q8 Q10 Q14 Q21 Q23 Q31 Q32 Q35 Q36 Q39"
+    },
+    {
+      "size": 12,
+      "fidelity": 0.9703578129327426,
+      "procrustes": 0.9407156258654852,
+      "ari": 1.0,
+      "items": "Q4 Q8 Q10 Q14 Q21 Q24 Q25 Q31 Q33 Q35 Q36 Q39"
+    },
+    {
+      "size": 13,
+      "fidelity": 0.9738150785537955,
+      "procrustes": 0.9476301571075909,
+      "ari": 1.0,
+      "items": "Q4 Q8 Q10 Q11 Q14 Q19 Q21 Q23 Q31 Q32 Q35 Q36 Q39"
+    },
+    {
+      "size": 14,
+      "fidelity": 0.9767447859391301,
+      "procrustes": 0.9534895718782601,
+      "ari": 1.0,
+      "items": "Q4 Q8 Q10 Q11 Q14 Q19 Q21 Q23 Q25 Q31 Q32 Q35 Q36 Q39"
+    },
+    {
+      "size": 15,
+      "fidelity": 0.9791603033349119,
+      "procrustes": 0.9583206066698238,
+      "ari": 1.0,
+      "items": "Q4 Q7 Q8 Q10 Q11 Q14 Q19 Q21 Q23 Q25 Q31 Q32 Q35 Q36 Q39"
+    },
+    {
+      "size": 16,
+      "fidelity": 0.9807848581773543,
+      "procrustes": 0.9615697163547086,
+      "ari": 1.0,
+      "items": "Q1 Q4 Q7 Q8 Q10 Q11 Q14 Q19 Q21 Q23 Q25 Q31 Q33 Q35 Q36 Q39"
+    },
+    {
+      "size": 17,
+      "fidelity": 0.9818323831338498,
+      "procrustes": 0.9636647662676996,
+      "ari": 1.0,
+      "items": "Q4 Q8 Q11 Q13 Q14 Q19 Q21 Q25 Q27 Q28 Q31 Q32 Q33 Q35 Q36 Q38 Q39"
+    },
+    {
+      "size": 18,
+      "fidelity": 0.9828180545995397,
+      "procrustes": 0.9656361091990794,
+      "ari": 1.0,
+      "items": "Q4 Q5 Q11 Q13 Q14 Q15 Q18 Q19 Q21 Q22 Q24 Q31 Q32 Q33 Q35 Q36 Q38 Q39"
+    },
+    {
+      "size": 21,
+      "fidelity": 0.9835746702078103,
+      "procrustes": 0.9671493404156207,
+      "ari": 1.0,
+      "items": "Q1 Q4 Q5 Q9 Q10 Q13 Q14 Q15 Q16 Q18 Q19 Q21 Q24 Q26 Q30 Q32 Q33 Q34 Q36 Q38 Q40"
+    },
+    {
+      "size": 23,
+      "fidelity": 0.9836968189629912,
+      "procrustes": 0.9673936379259824,
+      "ari": 1.0,
+      "items": "Q1 Q2 Q3 Q4 Q5 Q6 Q8 Q10 Q11 Q13 Q14 Q17 Q19 Q21 Q25 Q26 Q28 Q30 Q33 Q34 Q36 Q37 Q39"
+    },
+    {
+      "size": 24,
+      "fidelity": 0.9843873893436397,
+      "procrustes": 0.9687747786872795,
+      "ari": 1.0,
+      "items": "Q2 Q3 Q4 Q5 Q6 Q7 Q8 Q10 Q11 Q13 Q14 Q16 Q17 Q19 Q21 Q25 Q28 Q30 Q33 Q34 Q35 Q36 Q37 Q39"
+    },
+    {
+      "size": 40,
+      "fidelity": 1.0,
+      "procrustes": 1.0,
+      "ari": 1.0,
+      "items": "Q1 Q2 Q3 Q4 Q5 Q6 Q7 Q8 Q9 Q10 Q11 Q12 Q13 Q14 Q15 Q16 Q17 Q18 Q19 Q20 Q21 Q22 Q23 Q24 Q25 Q26 Q27 Q28 Q29 Q30 Q31 Q32 Q33 Q34 Q35 Q36 Q37 Q38 Q39 Q40"
+    }
+  ],
+  "consensus_size": 7,
+  "consensus_procrustes": 0.8896621514211401,
+  "consensus_ari": 1.0,
+  "consensus_fidelity": 0.94483107571057,
+  "note_truncation": "ARI can be negative (worse than chance) for poor subsets; truncation keeps fidelity in [0,1] and never binds at an optimum (all reported optima have ARI >= 0)."
+}

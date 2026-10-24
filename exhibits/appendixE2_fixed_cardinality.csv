@@ -1,0 +1,10 @@
+method,type,objective,procrustes,ari,overlap_consensus,items
+Tabu Search,metaheuristic,0.8923,0.8897,1.0,7,Q1 Q4 Q8 Q9 Q21 Q32 Q38
+Simulated annealing,wrapper,0.8914,0.8877,1.0,5,Q4 Q8 Q9 Q21 Q25 Q32 Q40
+Genetic algorithm,wrapper,0.8794,0.8637,1.0,4,Q1 Q4 Q6 Q9 Q21 Q24 Q37
+Sequential floating forward (SFFS),wrapper,0.8698,0.8445,1.0,4,Q1 Q4 Q8 Q9 Q11 Q25 Q35
+Backward elimination,wrapper,0.8627,0.8304,1.0,2,Q6 Q21 Q24 Q31 Q32 Q37 Q39
+L1-penalised logistic regression,embedded,0.7921,0.7705,0.9187,3,Q1 Q6 Q8 Q10 Q11 Q21 Q24
+Greedy forward,wrapper,0.7703,0.6456,1.0,3,Q1 Q2 Q3 Q4 Q6 Q8 Q11
+Random-forest importance,embedded,0.6984,0.7247,0.7771,2,Q6 Q8 Q9 Q11 Q24 Q25 Q39
+Sparse PCA,filter,0.6472,0.6828,0.7166,3,Q8 Q9 Q11 Q15 Q17 Q21 Q31

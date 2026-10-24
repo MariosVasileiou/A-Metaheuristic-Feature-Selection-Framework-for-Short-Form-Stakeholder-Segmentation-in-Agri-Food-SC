@@ -1,0 +1,33 @@
+{
+  "n": 42,
+  "p": 40,
+  "ordinal_robustness": {
+    "ari_spearman_corrmatrix_vs_pearson": 1.0,
+    "ari_kendall_corrmatrix_vs_pearson": 1.0,
+    "ari_rank_transform_variant": 0.4853168469860896,
+    "polychoric_feasibility": "ordinal correlation matrix conditioning: min eigenvalue -0.000, condition number 13378043871.7; a full 40x40 polychoric matrix is not reliably estimable at n approx p, so rank/Kendall correlation-matrix PCA is used instead",
+    "interpretation": "PCA on the Spearman and Kendall ordinal correlation matrices reproduces the Pearson reference partition exactly (ARI = 1.0), so the four-profile structure is not an artefact of treating the nine-point Likert responses as interval-scaled. A more aggressive rank-transform-then-PCA variant agrees only moderately (ARI = 0.49), with the disagreement concentrated in the two small clusters, consistent with their acknowledged fragility."
+  },
+  "respondent_quality": {
+    "n_distinct_patterns": 23,
+    "n_rows_in_duplicate_groups": 29,
+    "n_duplicate_groups": 10,
+    "largest_duplicate_group": 6,
+    "longstring_mean": 6.285714285714286,
+    "longstring_max": 16,
+    "n_longstring_ge_10": 6,
+    "response_sd_min": 0.5905234531480935,
+    "n_response_sd_below_0_5": 0,
+    "cronbach_alpha_full_scale": 0.8824377704064691,
+    "cronbach_alpha_opportunity_items": 0.9439190016782896,
+    "cronbach_alpha_concern_items": 0.8189685273988546,
+    "response_latency": "not recorded by the instrument",
+    "caveat": "Full-scale alpha is inflated by the multidimensional item pool and by duplicated response vectors; it is reported for completeness, not as a unidimensionality claim.",
+    "longstring_exclusion": {
+      "threshold": 10,
+      "n_flagged": 6,
+      "n_remaining": 36,
+      "ari_vs_published_restricted": 0.7234655944162052
+    }
+  }
+}

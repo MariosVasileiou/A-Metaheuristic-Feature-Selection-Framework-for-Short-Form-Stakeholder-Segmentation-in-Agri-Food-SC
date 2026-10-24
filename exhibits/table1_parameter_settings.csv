@@ -1,0 +1,13 @@
+parameter,value,rationale
+Number of items (p),40,Full instrument
+Number of PCA components (K),4,Scree criterion; explains 68.1% of full-instrument variance
+Number of profiles (k),4,Empirically supported by Ward dendrogram cut and PCA structure
+Clustering algorithm,Ward hierarchical,Standard for PC-space segmentation
+Penalty coefficient (alpha),0.3,Targets short forms of 7 to 10 items
+Weight on Procrustes term (w),0.5,Equal weighting; examined by sensitivity analysis (Section 3.8)
+Minimum subset size (m_min),5,Lower bound for four-component PCA
+Tabu tenure (tau),10 iterations,Standard mid-range value
+Iterations per run (T_max),100,Allows late refinements (last improvement at median iteration 64)
+Number of independent runs,30,Statistical stability
+Initialisation,Bernoulli(0.5),Uniform over subset space
+Aspiration criterion,Global best,Standard

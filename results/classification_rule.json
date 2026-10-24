@@ -1,0 +1,154 @@
+{
+  "short_form": [
+    "Q1",
+    "Q4",
+    "Q8",
+    "Q9",
+    "Q21",
+    "Q32",
+    "Q38"
+  ],
+  "profile_names": {
+    "4": "Pragmatic Optimists",
+    "2": "Committed Enthusiasts",
+    "3": "Operationally Cautious",
+    "1": "Risk-Averse Sceptics"
+  },
+  "standardisation": {
+    "item": [
+      "Q1",
+      "Q4",
+      "Q8",
+      "Q9",
+      "Q21",
+      "Q32",
+      "Q38"
+    ],
+    "mean": [
+      3.0238095238095237,
+      2.761904761904762,
+      2.2142857142857144,
+      2.8095238095238093,
+      1.3571428571428572,
+      3.0476190476190474,
+      2.9047619047619047
+    ],
+    "sd": [
+      1.2438055130103787,
+      1.1086139739831253,
+      1.669555319834115,
+      1.366923818514983,
+      2.12492496866336,
+      0.8984743935292003,
+      1.394026777933757
+    ]
+  },
+  "centroids_standardised": {
+    "Risk-Averse Sceptics": [
+      -4.0391,
+      -2.4913,
+      -0.7273,
+      -3.5185,
+      1.2437,
+      -3.392,
+      -2.0837
+    ],
+    "Committed Enthusiasts": [
+      0.7848,
+      1.1168,
+      0.984,
+      0.7664,
+      -1.5799,
+      1.06,
+      0.7857
+    ],
+    "Operationally Cautious": [
+      -0.0191,
+      -0.6873,
+      -2.5242,
+      0.8709,
+      0.7731,
+      -0.053,
+      0.0683
+    ],
+    "Pragmatic Optimists": [
+      0.0918,
+      -0.003,
+      0.1608,
+      -0.0625,
+      0.1889,
+      -0.0146,
+      -0.0554
+    ]
+  },
+  "decision_rule": "Standardise the 7 responses with the fixed mean/SD constants; assign to the nearest centroid in Euclidean distance; posterior = softmax(-0.5*d^2); flag 'uncertain' when max posterior < 0.5.",
+  "in_sample_accuracy": 1.0,
+  "loro_accuracy_all": 1.0,
+  "loro_accuracy_distinct_patterns": 1.0,
+  "loro_fraction_flagged_uncertain": 0.0,
+  "in_sample_min_max_posterior": 0.646343652627793,
+  "loro_min_max_posterior": 0.5407989012767174,
+  "lopo_accuracy_pooled": 0.9523809523809523,
+  "lopo_per_pilot": [
+    {
+      "pilot": "P1",
+      "n": 6,
+      "accuracy": 1.0,
+      "trained_classes": 4
+    },
+    {
+      "pilot": "P2",
+      "n": 6,
+      "accuracy": 0.6666666666666666,
+      "trained_classes": 3
+    },
+    {
+      "pilot": "P3",
+      "n": 6,
+      "accuracy": 1.0,
+      "trained_classes": 4
+    },
+    {
+      "pilot": "P4",
+      "n": 6,
+      "accuracy": 1.0,
+      "trained_classes": 4
+    },
+    {
+      "pilot": "P5",
+      "n": 6,
+      "accuracy": 1.0,
+      "trained_classes": 4
+    },
+    {
+      "pilot": "P6",
+      "n": 6,
+      "accuracy": 1.0,
+      "trained_classes": 4
+    },
+    {
+      "pilot": "P7",
+      "n": 6,
+      "accuracy": 1.0,
+      "trained_classes": 4
+    }
+  ],
+  "confidence_calibration_loro": [
+    {
+      "conf_bin": "[0.5,0.7)",
+      "n": 1,
+      "accuracy": 1.0
+    },
+    {
+      "conf_bin": "[0.7,0.9)",
+      "n": 14,
+      "accuracy": 1.0
+    },
+    {
+      "conf_bin": "[0.9,1.0)",
+      "n": 27,
+      "accuracy": 1.0
+    }
+  ],
+  "caveat": "Many response vectors are duplicated, so LORO is optimistic; LOPO removes an entire pilot (and, for the pilot that holds both Risk-Averse Sceptics records, the only sceptics), giving a stricter internal check. Genuine external validation on a new independent sample is still required."
+}

@@ -1,0 +1,113 @@
+[
+  {
+    "method": "Tabu Search",
+    "type": "metaheuristic",
+    "size": 7,
+    "procrustes": 0.8897,
+    "ari": 1.0,
+    "fidelity": 0.9448,
+    "overlap_consensus": 7,
+    "items": "Q1 Q4 Q8 Q9 Q21 Q32 Q38",
+    "objective": 0.8923
+  },
+  {
+    "method": "Greedy forward",
+    "type": "wrapper",
+    "size": 7,
+    "procrustes": 0.6456,
+    "ari": 1.0,
+    "fidelity": 0.8228,
+    "overlap_consensus": 3,
+    "items": "Q1 Q2 Q3 Q4 Q6 Q8 Q11",
+    "objective": 0.7703
+  },
+  {
+    "method": "Backward elimination",
+    "type": "wrapper",
+    "size": 7,
+    "procrustes": 0.8304,
+    "ari": 1.0,
+    "fidelity": 0.9152,
+    "overlap_consensus": 2,
+    "items": "Q6 Q21 Q24 Q31 Q32 Q37 Q39",
+    "objective": 0.8627
+  },
+  {
+    "method": "Sequential floating forward (SFFS)",
+    "type": "wrapper",
+    "size": 7,
+    "procrustes": 0.8445,
+    "ari": 1.0,
+    "fidelity": 0.9223,
+    "overlap_consensus": 4,
+    "items": "Q1 Q4 Q8 Q9 Q11 Q25 Q35",
+    "objective": 0.8698,
+    "best_size": 10,
+    "best_ari": 1.0,
+    "best_procrustes": 0.9065,
+    "best_items": "Q1 Q4 Q6 Q8 Q11 Q19 Q25 Q32 Q35 Q39"
+  },
+  {
+    "method": "Simulated annealing",
+    "type": "wrapper",
+    "size": 7,
+    "procrustes": 0.8877,
+    "ari": 1.0,
+    "fidelity": 0.9439,
+    "overlap_consensus": 5,
+    "items": "Q4 Q8 Q9 Q21 Q25 Q32 Q40",
+    "objective": 0.8914,
+    "best_size": 11,
+    "best_ari": 1.0,
+    "best_procrustes": 0.92,
+    "best_items": "Q4 Q8 Q10 Q13 Q14 Q21 Q31 Q32 Q35 Q36 Q39"
+  },
+  {
+    "method": "Genetic algorithm",
+    "type": "wrapper",
+    "size": 7,
+    "procrustes": 0.8637,
+    "ari": 1.0,
+    "fidelity": 0.9319,
+    "overlap_consensus": 4,
+    "items": "Q1 Q4 Q6 Q9 Q21 Q24 Q37",
+    "objective": 0.8794,
+    "best_size": 14,
+    "best_ari": 1.0,
+    "best_procrustes": 0.9103,
+    "best_items": "Q1 Q9 Q10 Q11 Q14 Q18 Q20 Q21 Q24 Q25 Q31 Q32 Q36 Q39"
+  },
+  {
+    "method": "Sparse PCA",
+    "type": "filter",
+    "size": 7,
+    "procrustes": 0.6828,
+    "ari": 0.7166,
+    "fidelity": 0.6997,
+    "overlap_consensus": 3,
+    "items": "Q8 Q9 Q11 Q15 Q17 Q21 Q31",
+    "objective": 0.6472
+  },
+  {
+    "method": "L1-penalised logistic regression",
+    "type": "embedded",
+    "size": 7,
+    "procrustes": 0.7705,
+    "ari": 0.9187,
+    "fidelity": 0.8446,
+    "overlap_consensus": 3,
+    "items": "Q1 Q6 Q8 Q10 Q11 Q21 Q24",
+    "objective": 0.7921
+  },
+  {
+    "method": "Random-forest importance",
+    "type": "embedded",
+    "size": 7,
+    "procrustes": 0.7247,
+    "ari": 0.7771,
+    "fidelity": 0.7509,
+    "overlap_consensus": 2,
+    "items": "Q6 Q8 Q9 Q11 Q24 Q25 Q39",
+    "objective": 0.6984
+  }
+]

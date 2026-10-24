@@ -1,0 +1,40 @@
+{
+  "n_total": 42,
+  "n_items": 40,
+  "age_band": {
+    "35-44": 14,
+    "45-54": 13,
+    "<35": 8,
+    "55+": 7
+  },
+  "gender": {
+    "Male": 22,
+    "Female": 20
+  },
+  "country": {
+    "Greece": 9,
+    "Italy": 9,
+    "Spain": 7,
+    "Serbia": 6,
+    "Croatia": 5,
+    "France": 4,
+    "United Kingdom": 2
+  },
+  "pilot": {
+    "P1": 6,
+    "P2": 6,
+    "P3": 6,
+    "P4": 6,
+    "P5": 6,
+    "P6": 6,
+    "P7": 6
+  },
+  "org_type": {
+    "Production": 16,
+    "Research": 9,
+    "Retailer": 5,
+    "Regulatory": 5,
+    "Consulting": 4,
+    "Other": 3
+  }
+}

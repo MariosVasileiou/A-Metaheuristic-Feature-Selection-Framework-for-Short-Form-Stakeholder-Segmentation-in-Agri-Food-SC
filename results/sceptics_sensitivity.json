@@ -1,0 +1,270 @@
+{
+  "n_respondents": 42,
+  "n_distinct_patterns": 23,
+  "n_rows_in_duplicate_groups": 29,
+  "identical_groups": [
+    [
+      1,
+      26,
+      30
+    ],
+    [
+      2,
+      36
+    ],
+    [
+      3,
+      11,
+      15,
+      20,
+      32,
+      35
+    ],
+    [
+      5,
+      23,
+      27,
+      33,
+      34
+    ],
+    [
+      6,
+      8
+    ],
+    [
+      7,
+      9
+    ],
+    [
+      10,
+      14,
+      31
+    ],
+    [
+      24,
+      28
+    ],
+    [
+      25,
+      29
+    ],
+    [
+      37,
+      38
+    ]
+  ],
+  "consensus": [
+    "Q1",
+    "Q4",
+    "Q8",
+    "Q9",
+    "Q21",
+    "Q32",
+    "Q38"
+  ],
+  "analyses": [
+    {
+      "tag": "full_n42_k4",
+      "n": 42,
+      "k": 4,
+      "reference_sizes": [
+        2,
+        7,
+        4,
+        29
+      ],
+      "min_cluster_size": 2,
+      "short_form": [
+        "Q1",
+        "Q4",
+        "Q8",
+        "Q9",
+        "Q21",
+        "Q32",
+        "Q38"
+      ],
+      "size": 7,
+      "ari": 1.0,
+      "procrustes": 0.8896621514211401,
+      "overlap_count": 7,
+      "overlap_items": [
+        "Q1",
+        "Q4",
+        "Q8",
+        "Q9",
+        "Q21",
+        "Q32",
+        "Q38"
+      ]
+    },
+    {
+      "tag": "full_n42_k3",
+      "n": 42,
+      "k": 3,
+      "reference_sizes": [
+        2,
+        7,
+        33
+      ],
+      "min_cluster_size": 2,
+      "short_form": [
+        "Q4",
+        "Q14",
+        "Q21",
+        "Q24",
+        "Q31",
+        "Q32",
+        "Q33",
+        "Q36",
+        "Q39"
+      ],
+      "size": 9,
+      "ari": 1.0,
+      "procrustes": 0.9201610362946616,
+      "overlap_count": 3,
+      "overlap_items": [
+        "Q4",
+        "Q21",
+        "Q32"
+      ]
+    },
+    {
+      "tag": "drop_dup_sceptic_n41_k4",
+      "n": 41,
+      "k": 4,
+      "reference_sizes": [
+        7,
+        4,
+        29,
+        1
+      ],
+      "min_cluster_size": 1,
+      "short_form": [
+        "Q1",
+        "Q4",
+        "Q8",
+        "Q9",
+        "Q21",
+        "Q23",
+        "Q32",
+        "Q35",
+        "Q38"
+      ],
+      "size": 9,
+      "ari": 1.0,
+      "procrustes": 0.9086022407372055,
+      "overlap_count": 7,
+      "overlap_items": [
+        "Q1",
+        "Q4",
+        "Q8",
+        "Q9",
+        "Q21",
+        "Q32",
+        "Q38"
+      ]
+    },
+    {
+      "tag": "distinct_n23_k4",
+      "n": 23,
+      "k": 4,
+      "reference_sizes": [
+        2,
+        2,
+        18,
+        1
+      ],
+      "min_cluster_size": 1,
+      "short_form": [
+        "Q4",
+        "Q8",
+        "Q10",
+        "Q14",
+        "Q21",
+        "Q25",
+        "Q31",
+        "Q32",
+        "Q36",
+        "Q39"
+      ],
+      "size": 10,
+      "ari": 1.0,
+      "procrustes": 0.9173739164539008,
+      "overlap_count": 4,
+      "overlap_items": [
+        "Q4",
+        "Q8",
+        "Q21",
+        "Q32"
+      ]
+    },
+    {
+      "tag": "distinct_n23_k3",
+      "n": 23,
+      "k": 3,
+      "reference_sizes": [
+        2,
+        20,
+        1
+      ],
+      "min_cluster_size": 1,
+      "short_form": [
+        "Q4",
+        "Q8",
+        "Q10",
+        "Q14",
+        "Q21",
+        "Q25",
+        "Q31",
+        "Q32",
+        "Q36",
+        "Q39"
+      ],
+      "size": 10,
+      "ari": 1.0,
+      "procrustes": 0.9173739164539008,
+      "overlap_count": 4,
+      "overlap_items": [
+        "Q4",
+        "Q8",
+        "Q21",
+        "Q32"
+      ]
+    }
+  ],
+  "distinct_kept_rows": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    10,
+    12,
+    13,
+    16,
+    17,
+    18,
+    19,
+    21,
+    22,
+    24,
+    25,
+    37,
+    39,
+    40,
+    41
+  ],
+  "overlap_summary": {
+    "min": 3,
+    "max": 7,
+    "mean": 5.0,
+    "items_common_to_all_alternatives": [
+      "Q21",
+      "Q32",
+      "Q4"
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+field,category,n
+org_type,Production,16
+org_type,Research,9
+org_type,Retailer,5
+org_type,Regulatory,5
+org_type,Consulting,4
+org_type,Other,3
+age_band,35-44,14
+age_band,45-54,13
+age_band,55+,7
+age_band,<35,8

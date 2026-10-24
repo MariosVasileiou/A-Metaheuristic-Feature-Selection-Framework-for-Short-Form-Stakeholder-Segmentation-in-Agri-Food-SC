@@ -1,0 +1,264 @@
+{
+  "n": 42,
+  "p": 40,
+  "factorability": {
+    "bartlett_chi2": 17278.31281507541,
+    "bartlett_dof": 780.0,
+    "bartlett_p": 0.0,
+    "corr_logdet": -643.912278822686,
+    "kmo_overall": 0.5142288098400974,
+    "correlation_matrix_rank": 22,
+    "note": "The 40x40 item correlation matrix has rank 22 (n close to p and repeated response vectors), so it is singular: the Bartlett statistic rests on a numerically meaningless log-determinant and is not informative, and the KMO value (computed with a pseudo-inverse) is indicative only. PCA is used here for dimension reduction feeding clustering, not as a measurement/factor model."
+  },
+  "cluster_validity": [
+    {
+      "k": 2,
+      "silhouette": 0.714910545535018,
+      "calinski_harabasz": 32.86714495759477,
+      "davies_bouldin": 0.20608673007722864,
+      "min_cluster_size": 2,
+      "sizes": [
+        2,
+        40
+      ]
+    },
+    {
+      "k": 3,
+      "silhouette": 0.42441021421456593,
+      "calinski_harabasz": 31.082640474700263,
+      "davies_bouldin": 0.5741325795482304,
+      "min_cluster_size": 2,
+      "sizes": [
+        2,
+        7,
+        33
+      ]
+    },
+    {
+      "k": 4,
+      "silhouette": 0.5357772440085655,
+      "calinski_harabasz": 38.58152570009625,
+      "davies_bouldin": 0.48156086972545514,
+      "min_cluster_size": 2,
+      "sizes": [
+        2,
+        7,
+        4,
+        29
+      ]
+    },
+    {
+      "k": 5,
+      "silhouette": 0.5835194772680349,
+      "calinski_harabasz": 49.43689476001494,
+      "davies_bouldin": 0.44915637857317214,
+      "min_cluster_size": 2,
+      "sizes": [
+        2,
+        7,
+        4,
+        2,
+        27
+      ]
+    },
+    {
+      "k": 6,
+      "silhouette": 0.5976750481254486,
+      "calinski_harabasz": 77.99258489492952,
+      "davies_bouldin": 0.4755328042418839,
+      "min_cluster_size": 2,
+      "sizes": [
+        2,
+        7,
+        4,
+        2,
+        8,
+        19
+      ]
+    }
+  ],
+  "component_sensitivity": [
+    {
+      "K_components": 3,
+      "ari_vs_reference": 1.0,
+      "sizes": [
+        2,
+        7,
+        4,
+        29
+      ]
+    },
+    {
+      "K_components": 4,
+      "ari_vs_reference": 1.0,
+      "sizes": [
+        2,
+        7,
+        4,
+        29
+      ]
+    },
+    {
+      "K_components": 5,
+      "ari_vs_reference": 1.0,
+      "sizes": [
+        2,
+        7,
+        4,
+        29
+      ]
+    },
+    {
+      "K_components": 6,
+      "ari_vs_reference": 1.0,
+      "sizes": [
+        2,
+        7,
+        4,
+        29
+      ]
+    }
+  ],
+  "profile_count_sensitivity": [
+    {
+      "k_profiles": 3,
+      "ari_vs_reference_k4": 0.7299364021804967,
+      "sizes": [
+        2,
+        7,
+        33
+      ]
+    },
+    {
+      "k_profiles": 4,
+      "ari_vs_reference_k4": 1.0,
+      "sizes": [
+        2,
+        7,
+        4,
+        29
+      ]
+    },
+    {
+      "k_profiles": 5,
+      "ari_vs_reference_k4": 0.8746839741896533,
+      "sizes": [
+        2,
+        7,
+        4,
+        2,
+        27
+      ]
+    }
+  ],
+  "loro": {
+    "mean_ari": 1.0,
+    "min_ari": 1.0,
+    "std_ari": 0.0,
+    "fraction_ari_1": 1.0,
+    "n_below_0_9": 0
+  },
+  "lopo": [
+    {
+      "pilot_removed": "P1",
+      "n_removed": 6,
+      "ari_vs_reference": 0.6929824561403509,
+      "n_distinct_clusters": 4
+    },
+    {
+      "pilot_removed": "P2",
+      "n_removed": 6,
+      "ari_vs_reference": 0.8545662581674747,
+      "n_distinct_clusters": 4
+    },
+    {
+      "pilot_removed": "P3",
+      "n_removed": 6,
+      "ari_vs_reference": 1.0,
+      "n_distinct_clusters": 4
+    },
+    {
+      "pilot_removed": "P4",
+      "n_removed": 6,
+      "ari_vs_reference": 1.0,
+      "n_distinct_clusters": 4
+    },
+    {
+      "pilot_removed": "P5",
+      "n_removed": 6,
+      "ari_vs_reference": 1.0,
+      "n_distinct_clusters": 4
+    },
+    {
+      "pilot_removed": "P6",
+      "n_removed": 6,
+      "ari_vs_reference": 1.0,
+      "n_distinct_clusters": 4
+    },
+    {
+      "pilot_removed": "P7",
+      "n_removed": 6,
+      "ari_vs_reference": 0.9079680432001128,
+      "n_distinct_clusters": 4
+    }
+  ],
+  "risk_averse_sceptics": {
+    "members_row_index": [
+      6,
+      8
+    ],
+    "pilot_cases": [
+      "P2",
+      "P2"
+    ],
+    "same_pilot": true,
+    "pairwise_pearson_r": 0.9999999999999999,
+    "n_items_identical_of_40": 40,
+    "sample_median_pairwise_r": 0.24891239259496556,
+    "sample_p95_pairwise_r": 0.8274181633467278
+  },
+  "distinct_vectors_reference": {
+    "n_distinct": 23,
+    "kept_rows": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      10,
+      12,
+      13,
+      16,
+      17,
+      18,
+      19,
+      21,
+      22,
+      24,
+      25,
+      37,
+      39,
+      40,
+      41
+    ],
+    "reference_sizes": [
+      2,
+      2,
+      18,
+      1
+    ],
+    "ari_vs_published_restricted": 0.3925084040339363,
+    "silhouette_by_k": {
+      "2": 0.6618930592838257,
+      "3": 0.45041627142501023,
+      "4": 0.5042005779186495,
+      "5": 0.41302243044202624,
+      "6": 0.3916799753866643
+    },
+    "silhouette_best_k": 2,
+    "largest_merge_gap_k": 2
+  }
+}

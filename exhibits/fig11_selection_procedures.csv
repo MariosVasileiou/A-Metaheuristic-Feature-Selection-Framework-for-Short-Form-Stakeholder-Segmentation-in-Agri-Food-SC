@@ -1,0 +1,10 @@
+method,type,objective,procrustes,ari
+Tabu Search,metaheuristic,0.8923,0.8897,1.0
+Simulated annealing,wrapper,0.8914,0.8877,1.0
+Genetic algorithm,wrapper,0.8794,0.8637,1.0
+Sequential floating forward (SFFS),wrapper,0.8698,0.8445,1.0
+Backward elimination,wrapper,0.8627,0.8304,1.0
+L1-penalised logistic regression,embedded,0.7921,0.7705,0.9187
+Greedy forward,wrapper,0.7703,0.6456,1.0
+Random-forest importance,embedded,0.6984,0.7247,0.7771
+Sparse PCA,filter,0.6472,0.6828,0.7166

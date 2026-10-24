@@ -1,0 +1,5 @@
+variant,ari_vs_pearson_reference
+Pearson (reference),1.0
+Spearman correlation matrix,1.0
+Kendall correlation matrix,1.0
+Rank-transformed items,0.4853168469860896

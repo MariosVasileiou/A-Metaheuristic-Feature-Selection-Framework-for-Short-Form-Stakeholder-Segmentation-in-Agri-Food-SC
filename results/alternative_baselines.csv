@@ -1,0 +1,10 @@
+method,type,size,procrustes,ari,fidelity,overlap_consensus,items,objective,best_size,best_ari,best_procrustes,best_items
+Tabu Search,metaheuristic,7,0.8897,1.0,0.9448,7,Q1 Q4 Q8 Q9 Q21 Q32 Q38,0.8923,,,,
+Greedy forward,wrapper,7,0.6456,1.0,0.8228,3,Q1 Q2 Q3 Q4 Q6 Q8 Q11,0.7703,,,,
+Backward elimination,wrapper,7,0.8304,1.0,0.9152,2,Q6 Q21 Q24 Q31 Q32 Q37 Q39,0.8627,,,,
+Sequential floating forward (SFFS),wrapper,7,0.8445,1.0,0.9223,4,Q1 Q4 Q8 Q9 Q11 Q25 Q35,0.8698,10.0,1.0,0.9065,Q1 Q4 Q6 Q8 Q11 Q19 Q25 Q32 Q35 Q39
+Simulated annealing,wrapper,7,0.8877,1.0,0.9439,5,Q4 Q8 Q9 Q21 Q25 Q32 Q40,0.8914,11.0,1.0,0.92,Q4 Q8 Q10 Q13 Q14 Q21 Q31 Q32 Q35 Q36 Q39
+Genetic algorithm,wrapper,7,0.8637,1.0,0.9319,4,Q1 Q4 Q6 Q9 Q21 Q24 Q37,0.8794,14.0,1.0,0.9103,Q1 Q9 Q10 Q11 Q14 Q18 Q20 Q21 Q24 Q25 Q31 Q32 Q36 Q39
+Sparse PCA,filter,7,0.6828,0.7166,0.6997,3,Q8 Q9 Q11 Q15 Q17 Q21 Q31,0.6472,,,,
+L1-penalised logistic regression,embedded,7,0.7705,0.9187,0.8446,3,Q1 Q6 Q8 Q10 Q11 Q21 Q24,0.7921,,,,
+Random-forest importance,embedded,7,0.7247,0.7771,0.7509,2,Q6 Q8 Q9 Q11 Q24 Q25 Q39,0.6984,,,,

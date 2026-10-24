@@ -1,0 +1,6 @@
+# Python 3.12.3. Pinned to the versions the results and figures were generated with.
+numpy==2.4.4
+pandas==3.0.2
+scipy==1.17.1
+scikit-learn==1.8.0
+matplotlib==3.11.2

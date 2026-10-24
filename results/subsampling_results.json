@@ -1,0 +1,44 @@
+{
+  "n_subsamples": 200,
+  "subsample_size": 35,
+  "tabu_iters_per_subsample": 50,
+  "consensus_items": [
+    "Q1",
+    "Q4",
+    "Q8",
+    "Q9",
+    "Q21",
+    "Q32",
+    "Q38"
+  ],
+  "size": {
+    "mean": 9.56,
+    "std": 1.7653328298085889,
+    "min": 6,
+    "max": 19,
+    "median": 9.0
+  },
+  "procrustes": {
+    "mean": 0.9165194048797045,
+    "std": 0.01464037495541469
+  },
+  "ari": {
+    "mean": 1.0,
+    "std": 0.0,
+    "fraction_equal_1": 1.0
+  },
+  "overlap_with_consensus": {
+    "mean": 3.2,
+    "std": 1.1357816691600549,
+    "distribution": {
+      "0": 1,
+      "1": 10,
+      "2": 42,
+      "3": 72,
+      "4": 49,
+      "5": 23,
+      "6": 2,
+      "7": 1
+    }
+  }
+}

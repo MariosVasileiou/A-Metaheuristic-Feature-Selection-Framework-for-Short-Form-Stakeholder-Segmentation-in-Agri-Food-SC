@@ -1,0 +1,55 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite the associated article and this repository."
+title: "A Metaheuristic Feature Selection Framework for Short-Form Stakeholder Segmentation in Agri-Food Supply Chains: code and de-identified data"
+abstract: "Code, de-identified survey data and numeric outputs that reproduce every figure and numerical table of the article. A Tabu Search selects a short form of a 40-item stakeholder survey (42 respondents, seven Geographical-Indication and organic agri-food pilot value chains) that preserves the four-profile segmentation obtained from the full instrument with PCA and Ward clustering."
+authors:
+  - family-names: "Vasileiou"
+    given-names: "Marios"
+    affiliation: "University of Thessaly"
+  - family-names: "Lappas"
+    given-names: "Pantelis Z."
+    affiliation: "University of the Aegean"
+  - family-names: "Kyrgiakos"
+    given-names: "Leonidas Sotirios"
+    affiliation: "University of Thessaly"
+  - family-names: "Kleisiari"
+    given-names: "Christina"
+    affiliation: "University of Thessaly"
+  - family-names: "Kleftodimos"
+    given-names: "Georgios"
+    affiliation: "CIHEAM-IAMM, UMR MoISA"
+  - family-names: "Vlontzos"
+    given-names: "George"
+    affiliation: "University of Thessaly"
+version: "1.1.0"
+date-released: "2026-10-24"
+doi: "10.5281/zenodo.22846010"
+license:
+  - MIT
+  - CC-BY-4.0
+keywords:
+  - feature selection
+  - tabu search
+  - metaheuristics
+  - survey short form
+  - stakeholder segmentation
+  - agri-food supply chains
+preferred-citation:
+  type: article
+  title: "A Metaheuristic Feature Selection Framework for Short-Form Stakeholder Segmentation in Agri-Food Supply Chains"
+  authors:
+    - family-names: "Vasileiou"
+      given-names: "Marios"
+    - family-names: "Lappas"
+      given-names: "Pantelis Z."
+    - family-names: "Kyrgiakos"
+      given-names: "Leonidas Sotirios"
+    - family-names: "Kleisiari"
+      given-names: "Christina"
+    - family-names: "Kleftodimos"
+      given-names: "Georgios"
+    - family-names: "Vlontzos"
+      given-names: "George"
+  journal: "Supply Chain Analytics"
+  year: 2026
+  status: submitted

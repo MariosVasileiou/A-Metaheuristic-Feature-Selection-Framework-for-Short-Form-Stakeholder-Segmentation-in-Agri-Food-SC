@@ -1,0 +1,34 @@
+Data licence: Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+The data files in this directory (alliance_items.csv and
+alliance_demographics_coarsened.csv) are made available under CC BY 4.0,
+subject to the conditions of use below. You are free to share and adapt the
+material for any purpose, provided you give appropriate credit.
+
+Full legal text: https://creativecommons.org/licenses/by/4.0/legalcode
+Summary:         https://creativecommons.org/licenses/by/4.0/
+
+Attribution: cite the accompanying article and this repository
+(https://doi.org/10.5281/zenodo.22846010; see CITATION.cff).
+
+------------------------------------------------------------------------------
+De-identification
+------------------------------------------------------------------------------
+These files are a de-identified derivative of the ALLIANCE stakeholder survey.
+The 40 item responses (Q1..Q40) are unchanged. Direct and quasi-identifying
+fields were removed or coarsened: submission timestamps dropped; pilot cases
+recoded to the codes P1..P7; age binned into bands; rare organisation types
+pooled into "Other"; respondents relabelled R01..R42. DATA_CHANGES.md
+documents the exact transformations.
+
+------------------------------------------------------------------------------
+Conditions of use
+------------------------------------------------------------------------------
+The files contain survey responses from human participants. At n = 42, some
+residual risk of re-identification remains despite the coarsening. Anyone
+using the data must:
+  1. make no attempt to identify or contact individual respondents or their
+     organisations, and not link the data with other sources for that purpose;
+  2. report any suspected disclosure risk to the authors (contact details in
+     the accompanying article), so that the files can be reviewed;
+  3. cite the accompanying article and this repository.
