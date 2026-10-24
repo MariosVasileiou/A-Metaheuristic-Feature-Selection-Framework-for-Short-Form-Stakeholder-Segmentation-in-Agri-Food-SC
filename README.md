@@ -1,6 +1,6 @@
 # A Metaheuristic Feature Selection Framework for Short-Form Stakeholder Segmentation
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22846010.svg)](https://doi.org/10.5281/zenodo.22846010)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23625696.svg)](https://doi.org/10.5281/zenodo.23625696)
 
 Code, de-identified data and numeric outputs accompanying the article
 *A Metaheuristic Feature Selection Framework for Short-Form Stakeholder
@@ -118,7 +118,7 @@ Appendix D of the article.
 ## Citation
 
 If you use the code or the data, please cite the article and this repository
-(https://doi.org/10.5281/zenodo.22846010); `CITATION.cff` gives both entries.
+(https://doi.org/10.5281/zenodo.23625696); `CITATION.cff` gives both entries.
 
 ## Funding
 
