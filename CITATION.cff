@@ -23,7 +23,21 @@ authors:
     affiliation: "University of Thessaly"
 version: "1.1.0"
 date-released: "2026-10-24"
-doi: "10.5281/zenodo.23625696"
+doi: "10.5281/zenodo.23625695"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23625695"
+    description: "All versions of the code and data (Zenodo concept DOI, cited in the article)"
+  - type: doi
+    value: "10.5281/zenodo.23625696"
+    description: "Version 1.1.0 of the code and data (this release)"
+  - type: doi
+    value: "10.5281/zenodo.22846010"
+    description: "Earlier release (version 1.0.1), archived as a separate Zenodo record"
+  - type: doi
+    value: "10.1016/j.sca.2026.100251"
+    description: "The associated article"
+repository-code: "https://github.com/MariosVasileiou/A-Metaheuristic-Feature-Selection-Framework-for-Short-Form-Stakeholder-Segmentation-in-Agri-Food-SC"
 license:
   - MIT
   - CC-BY-4.0
@@ -36,7 +50,7 @@ keywords:
   - agri-food supply chains
 preferred-citation:
   type: article
-  title: "A Metaheuristic Feature Selection Framework for Short-Form Stakeholder Segmentation in Agri-Food Supply Chains"
+  title: "A metaheuristic feature selection framework for short-form stakeholder segmentation in agri-food supply chains"
   authors:
     - family-names: "Vasileiou"
       given-names: "Marios"
@@ -51,5 +65,9 @@ preferred-citation:
     - family-names: "Vlontzos"
       given-names: "George"
   journal: "Supply Chain Analytics"
+  volume: 16
+  start: 100251
   year: 2026
-  status: submitted
+  issn: "2949-8635"
+  doi: "10.1016/j.sca.2026.100251"
+  url: "https://doi.org/10.1016/j.sca.2026.100251"
