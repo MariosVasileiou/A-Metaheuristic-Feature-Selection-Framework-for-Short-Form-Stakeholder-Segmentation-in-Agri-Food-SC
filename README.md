@@ -141,23 +141,6 @@ Vasileiou, M., Lappas, P. Z., Kyrgiakos, L. S., Kleisiari, C., Kleftodimos, G., 
 
 The same BibTeX entry is provided in [`S2949863526000609.bib`](S2949863526000609.bib) in the root of the repository.
 
-To cite the code and data themselves, use the Zenodo archive. The DOI below always resolves to the latest version:
-
-```text
-Vasileiou, M., Lappas, P. Z., Kyrgiakos, L. S., Kleisiari, C., Kleftodimos, G., & Vlontzos, G. (2026). Code and data for: A Metaheuristic Feature Selection Framework for Short-Form Stakeholder Segmentation in Agri-Food Supply Chains [Data set and software]. Zenodo. https://doi.org/10.5281/zenodo.23625695
-```
-
-```bibtex
-@misc{VASILEIOU2026ZENODO,
-  title     = {Code and data for: A Metaheuristic Feature Selection Framework for Short-Form Stakeholder Segmentation in Agri-Food Supply Chains},
-  author    = {Vasileiou, Marios and Lappas, Pantelis Z. and Kyrgiakos, Leonidas Sotirios and Kleisiari, Christina and Kleftodimos, Georgios and Vlontzos, George},
-  year      = {2026},
-  publisher = {Zenodo},
-  doi       = {10.5281/zenodo.23625695},
-  url       = {https://doi.org/10.5281/zenodo.23625695}
-}
-```
-
 ## Funding
 
 This project has received funding from the European Union's Horizon Europe
